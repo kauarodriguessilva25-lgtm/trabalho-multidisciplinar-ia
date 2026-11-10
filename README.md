@@ -4,6 +4,13 @@ Estudante: Kauã Petrus Rodrigues Da Silva
 Turma: 1º D - Técnico em IA  Colégio Estadual Rodolphe Zaninelli  
 Professora:Angélica  
 
+Contexto:
+Este repositório contém o Caderno de Análise Técnica Individual referente ao estudo prático dos dilemas éticos e técnicos apresentados em episódios de Black Mirror e no documentário O Dilema das Redes. O objetivo é aplicar conceitos fundamentais de Inteligência Artificial e Engenharia de Dados a cenários simulados de crise.
+
+Problema Investigado:
+Análise do impacto do uso desregrado de algoritmos de recomendação, modelos sintéticos de IA, tratamento indevido de dados pessoais e o risco da tomada de decisão sob incerteza com métricas estatísticas não confiáveis em momentos de crise social.
+
+
 
 -Dados Analisados
 - Tratamento de Dados e Privacidade: Identificação de dados pessoais sensíveis e necessidade de remoção via Pandas para conformidade com a LGPD.
