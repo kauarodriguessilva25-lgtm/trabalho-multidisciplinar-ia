@@ -31,7 +31,7 @@ Desenvolvimento de diretrizes éticas e técnicas de bloqueio aplicadas a prompt
 -> Análise de Viés: Prevenção do viés de confirmação através de visualizações completas de dados (Scatter Plots e Pairplots) para diferenciação entre *outliers* e tendências reais.
 
 
-- Próximos Passos
+-> Próximos Passos
 1-> Emissão de alerta oficial de segurança pública com protocolo de verificação de voz.
 2-> Bloqueio automático de linhas telefônicas com probabilidade de fraude superior a 95% identificadas pelo modelo de IA.
 3-> Implementação contínua de testes de usabilidade com humanos no loop (Human-in-the-Loop).
