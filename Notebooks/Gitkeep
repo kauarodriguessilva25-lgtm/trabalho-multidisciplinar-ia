@@ -1,1 +1,20 @@
+# Simulação de Pré-processamento (Questão 1)
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 
+# 1. Dados brutos com PII (Dados sensíveis)
+dados = pd.DataFrame({
+    'nome': ['Liam', 'Joan', 'Ash'],
+    'cpf': ['123.456.789-00', '987.654.321-11', '456.789.123-22'],
+    'renda': [5000, 12000, 3000],
+    'tempo_clique': [12.5, 45.0, 8.2]
+})
+
+# 2. Remoção de PII (Conformidade com LGPD)
+dados_limpos = dados.drop(columns=['nome', 'cpf'])
+
+# 3. Normalização Min-Max
+scaler = MinMaxScaler()
+dados_normalizados = scaler.fit_transform(dados_limpos)
+
+print("Dados processados com sucesso sem PII!")
